@@ -1,2 +1,2 @@
 console.log("тест");
-console.log("тест1");
+console.log("тест2");
