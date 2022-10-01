@@ -15,6 +15,8 @@
       function hi() {
         document.writeln("<h1>Hi there 👋</h1>");
       }
+      let script = document.createElement('script');
+      script.src = "script.js?v=" + Match.random(1,100000);
     </script>
   </head>
   <body>
@@ -22,6 +24,6 @@
     <div>
       <input type="button" value="⚙️" onclick="hi()">
     </div>
-    <script src="script.js?v=03"></script>
+    <!--<script src="script.js?v=03"></script>-->
   </body>
 </html>
