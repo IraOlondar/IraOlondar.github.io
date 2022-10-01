@@ -12,11 +12,14 @@
       }
     </style>
     <script>
+      function getRandomArbitrary(min, max) {
+        return Math.random() * (max - min) + min;
+      }
       function hi() {
         document.writeln("<h1>Hi there 👋</h1>");
       }
       let script = document.createElement('script');
-      script.src = "script.js?v=" + Match.random(1,100000);
+      script.src = "script.js?v=" + getRandomArbitrary(1,100000);
     </script>
   </head>
   <body>
